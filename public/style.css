@@ -168,3 +168,73 @@ h2{
     align-items: center;
 
 }
+.cont-size{
+    height: 400px;
+}
+.img-size{
+    height: 380px;
+}
+.doc-img > img{
+    border-radius: 50%;
+    width: 280px;
+
+}
+.doctor-details{
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.doc-details{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: right;
+   flex-direction: column;
+   width: 25%;
+   color: #1c1c1c;
+   height: 100%;
+   margin-left: 50px;
+   font-weight: bold;
+}
+.docs-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    align-items: left;
+    width: 50%;
+    height: 100%;
+    margin-left: 40px;
+}
+.appoint{
+    border: solid;
+    border-width: 1px;
+    border-color: #2497ff;
+    color: #2497ff;
+}
+.btns{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    padding-bottom: 80px;
+    padding-right: 50px;
+}
+.appoint{
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
