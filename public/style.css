@@ -98,18 +98,63 @@ h2{
 
 }
 .login-form{
+    border-radius: 5px;
+    margin-left: 100px;
+    background-color: #2497ff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    width:500px;
     height:500px;
 }
-.welcome{
-   font-size: 50px;
+.Welcome{
+    margin-bottom: 80px;
+   font-size: 40px;
+   border: solid;
+   border-radius: 1px;
+   padding: 10px;
+   font-family: 'poppins' , sans-serif;
+   font-weight: bold;
+   border-radius: 10px;
+   color: white;
+   border-color: white;
 }
 .details{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.input{
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.login-btn{
+    border: solid;
+    border-width: 1px;
+    height: 40px;
+    background-color: #2497ff;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.register > p{
+    color: white;
+    margin: 0px;
+}
+.register{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.register > a {
+    color: white;
+    text-decoration: underline;
 }
