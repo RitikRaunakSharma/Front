@@ -35,6 +35,7 @@ nav{
     font-size: 15px;
     white-space: nowrap;
 }
+
 .web-img{
     width: 75px;
 }
@@ -387,5 +388,58 @@ h2{
     font-weight: 500;
     border-width: 1px;
     border-radius: 10px;
-
+    transition: 0.15s;
+}
+.buttons:hover{
+    width: 170px;
+    color: white;
+    background-color: #2497ff;
+}
+.patient-details{
+    background-color: white;
+    margin-top: 80px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.patient-details > p{
+    font-size: 30px;
+    border: solid;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: #2497ff;
+    color: #2497ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    border-color: #2497ff;
+}
+.det{
+    width: 20%;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.info-details{
+    width: 80%;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.download{
+    background-color: #2497ff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 500px;
 }
