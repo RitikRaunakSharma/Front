@@ -282,6 +282,8 @@ h2{
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
+    padding-bottom: 50px;
+    margin-top: -30px;
 }
 .add-docs{
     display: flex;
@@ -292,7 +294,7 @@ h2{
     border: solid;
     border-width: 2px;
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: #2497ff;
     color: white;
     margin-top: 0px;
@@ -333,7 +335,11 @@ h2{
     align-items: center;
     width: 100%;
     height: 30px;
+    padding-top: 20px;
     font-weight: bold;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgray;
 }
 .detail-box{
     height: 100%;
@@ -440,4 +446,7 @@ h2{
     font-size: 16px;
     border-radius: 5px;
     height: 500px;
+}
+.patient{
+    border: none;
 }
