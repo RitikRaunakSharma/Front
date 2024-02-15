@@ -108,7 +108,10 @@ h2{
     height:500px;
 }
 .Welcome{
-    margin-bottom: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 80px;
    font-size: 40px;
    border: solid;
    border-radius: 1px;
@@ -157,4 +160,11 @@ h2{
 .register > a {
     color: white;
     text-decoration: underline;
+}
+.wlc{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
