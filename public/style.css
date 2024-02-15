@@ -383,7 +383,7 @@ h2{
     font-weight: bold;
     font-size: 20px;
 }
-.buttons{
+.bottons{
     width: 150px;
     display: flex;
     justify-content: center;
@@ -394,7 +394,7 @@ h2{
     border-radius: 10px;
     transition: 0.15s;
 }
-.buttons:hover{
+.bottons:hover{
     width: 170px;
     color: white;
     background-color: #2497ff;
